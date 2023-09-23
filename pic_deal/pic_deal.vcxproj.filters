@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\img">
+      <UniqueIdentifier>{3f89fac7-72b5-48e0-a5b0-42b734edc74d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pic_deal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GrayTransform.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pivAlgebraic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="直方图操作.md">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="graytransform.md">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\test.png">
+      <Filter>资源文件\img</Filter>
+    </Image>
+    <Image Include="img\灰度值映射.png">
+      <Filter>资源文件\img</Filter>
+    </Image>
+    <Image Include="img\结果.png">
+      <Filter>资源文件\img</Filter>
+    </Image>
+    <Image Include="img\均衡化效果.png">
+      <Filter>资源文件\img</Filter>
+    </Image>
+    <Image Include="img\累积分布函数.png">
+      <Filter>资源文件\img</Filter>
+    </Image>
+    <Image Include="img\图像.png">
+      <Filter>资源文件\img</Filter>
+    </Image>
+    <Image Include="img\test1.png">
+      <Filter>资源文件\img</Filter>
+    </Image>
+    <Image Include="img\规定化例子.jpg">
+      <Filter>资源文件\img</Filter>
+    </Image>
+    <Image Include="img\均衡化.png">
+      <Filter>资源文件\img</Filter>
+    </Image>
+    <Image Include="img\图1均衡化结果.png">
+      <Filter>资源文件\img</Filter>
+    </Image>
+    <Image Include="img\test.jpg">
+      <Filter>资源文件\img</Filter>
+    </Image>
+    <Image Include="img\规定化原理1.png">
+      <Filter>资源文件\img</Filter>
+    </Image>
+    <Image Include="img\规定化原理2.jpg">
+      <Filter>资源文件\img</Filter>
+    </Image>
+    <Image Include="img\图2均衡化结果.png">
+      <Filter>资源文件\img</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
